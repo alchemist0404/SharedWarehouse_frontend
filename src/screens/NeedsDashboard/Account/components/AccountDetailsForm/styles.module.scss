@@ -1,0 +1,42 @@
+
+.phone {
+  & input {
+    // padding-left: 52px !important; // this one is used with separateDialCode = false, as semantic styles override native padding
+    width: 100% !important;
+  }
+  & :global(.iti--allow-dropdown) {
+    width: 100%;
+  }
+  & :global(.iti__selected-flag) {
+    outline: none;
+  }
+}
+
+.space_above {
+  margin-top: 3em !important;
+}
+
+.account_section {
+  display: flex;
+  flex-direction: row;
+
+  &__fields {
+    display: block;
+    width: fit-content;
+    flex-grow: 1;
+  }
+}
+
+.no_margin {
+  margin: 0 !important;
+}
+
+.form_button {
+  margin-top: 1em !important;
+}
+
+.inputGuide {
+  font-size: 0.8em;
+  padding: 0 !important;
+  text-align: justify !important;
+}

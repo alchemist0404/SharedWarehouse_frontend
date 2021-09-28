@@ -1,0 +1,9 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@pageBackground: #fff;
+@pageFont: 'Work Sans',  serif;
+
+@olive: #acce37;
+@orange: #f6901f;

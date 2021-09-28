@@ -1,0 +1,36 @@
+.selection {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.clear_selection_button {
+  position: relative;
+  top: -50%;
+  left: -10%;
+}
+
+.selection_button {
+  min-width: 6.8em;
+  height: 100%;
+
+  .custom_label {
+    color: red!important;
+    border: 1px solid red!important;
+  }
+}
+
+.card:first-child {
+  margin-top: 0 !important;
+}
+
+.notes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .custom_input {
+    width: 100%;
+    margin: .1em 0 .5em 0;
+  }
+}

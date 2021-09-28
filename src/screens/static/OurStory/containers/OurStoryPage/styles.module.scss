@@ -1,0 +1,26 @@
+@import "src/styles/variables";
+
+.container {
+  max-width: 1100px;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text {
+  font-size: 1.15em;
+}
+
+.image {
+  width: 447px;
+  height: 379px;
+
+  @media (max-width: 720px) {
+    width: 100%;
+    height: unset;
+    margin-bottom: 1em !important;
+  }
+}

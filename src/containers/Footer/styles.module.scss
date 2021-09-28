@@ -1,0 +1,115 @@
+@import "src/styles/variables";
+
+
+.footer {
+  &__dark {
+    background: #323232;
+
+    .columns {
+      & > :not(:first-child) {
+        border-left: solid #6F6F6F 2px;
+      }
+    }
+
+    .logo_title {
+      & > a {
+        color: #fff !important;
+      }
+    }
+  }
+
+  &__orange {
+    background: $orange;
+
+    .columns {
+      & > :not(:first-child) {
+        border-left: solid #ffae6f 2px;
+      }
+    }
+
+    .logo_title {
+      & > a {
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+.footer__dark, .footer__orange {
+  color: white;
+
+  a {
+    color: white;
+    width: fit-content;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.logo_title {
+  font-size: 1.5em;
+  font-weight: 700;
+  & > a {
+    text-decoration: none !important;
+  }
+}
+
+.vertical_space {
+  padding-top: 5em;
+  padding-bottom: 2em;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+
+  & > :not(:first-child) {
+    margin-left: 4rem;
+    padding-left: 2rem;
+  }
+}
+
+.column {
+  padding-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5em;
+  & > :not(:last-child) {
+    margin-bottom: 0.8em;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  :not(:last-child) {
+    margin-right: 1em;
+  }
+}
+
+.socials {
+  $size: 1.5rem;
+  $padding: 0.2rem;
+  & > a > svg {
+    height: $size + $padding;
+    width: $size + $padding;
+    fill: white;
+    padding: $padding;
+  }
+
+  & > a {
+    height: $size + $padding;
+  }
+}
+
+.links_list {
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+.contact_title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

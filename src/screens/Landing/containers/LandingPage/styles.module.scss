@@ -1,0 +1,66 @@
+@import "src/styles/variables";
+
+.vertical_spaces {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.top_offset {
+  margin-top: -6em;
+}
+
+.first_block {
+  height: 100vh;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #2F3136;
+  background-position: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.bottom_space {
+  margin-bottom: 3em;
+}
+
+.equal_columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container {
+  width: 100%;
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+.slogan {
+  color: white;
+  font-size: 6.8em !important;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  text-shadow: 0 0 4px rgba(4,1,46,0.3);
+  user-select: none;
+
+  &_container {
+    width: 40%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.full_size {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search_bar {
+  align-self: center;
+}

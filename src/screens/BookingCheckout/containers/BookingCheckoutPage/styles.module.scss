@@ -1,0 +1,23 @@
+@import "src/styles/variables";
+
+.title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.content_container {
+  max-width: 1000px;
+  margin: 5vh auto 15vh;
+}
+
+.steps {
+  max-width: 800px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.steps_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

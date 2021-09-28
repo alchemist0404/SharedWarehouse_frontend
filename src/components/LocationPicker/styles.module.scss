@@ -1,0 +1,21 @@
+@import "src/styles/variables";
+
+.selected {
+  text-align: center;
+}
+
+.notSelected {
+  text-align: center;
+  color: #888;
+}
+
+.button {
+  margin-top: 1em !important;
+  display: block;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+

@@ -1,0 +1,26 @@
+.container {
+  border-radius: 0.3em;
+  user-select: none;
+}
+
+.file_selection {
+  width: 100%;
+  margin-bottom: 1em;
+
+  div {
+    margin-bottom: 0.3em !important;
+  }
+}
+
+.file_label:global(.ui.blue.label) {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: #d94b4b !important;
+  }
+}
+
+.error {
+  width: 100%;
+  margin-bottom: 1em !important;
+}

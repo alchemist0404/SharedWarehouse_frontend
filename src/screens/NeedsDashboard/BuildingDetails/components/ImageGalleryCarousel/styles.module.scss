@@ -1,0 +1,19 @@
+@import "src/styles/variables";
+
+.no_carousel {
+  height: 30em;
+  width: 100%;
+  max-width: none !important;
+  overflow: hidden;
+  position: relative !important;
+  border-radius: $border_radius;
+
+  & > img {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+  }
+}

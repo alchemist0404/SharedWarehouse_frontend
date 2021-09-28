@@ -1,0 +1,31 @@
+.container {
+}
+
+.tab_button {
+  color: #0070B9 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  text-transform: none !important;
+  font-size: 1.4rem !important;
+  font-family: 'Source Serif Pro', serif !important;
+  font-weight: 400 !important;
+
+  &:hover {
+    color: #4c8eba !important;
+  }
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.active {
+  text-decoration: underline !important;
+  font-weight: 600 !important;
+}

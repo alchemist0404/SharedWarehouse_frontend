@@ -1,0 +1,18 @@
+.socials {
+  &_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+  }
+  &_button {
+    &_google {
+      &:hover {
+      }
+    }
+    &_facebook {
+      &:hover {
+      }
+    }
+  }
+}

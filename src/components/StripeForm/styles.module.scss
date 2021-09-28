@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+
+  :global(.StripeElement) {
+    display: block;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    padding: 10px 14px;
+    outline: 0;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    font-family: 'Work Sans', monospace;
+    border-radius: 4px;
+    background: white;
+    transition: border-color 0.1s ease-in-out;
+
+    &--invalid {
+      border: 1px solid #E0B4B4 !important;
+      background-color: #FFF6F6;
+    }
+
+    &--focus {
+      border: 1px solid #85B7D9;
+    }
+  }
+}
+
+.card_misc {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.button {
+  margin: 0 !important;
+}

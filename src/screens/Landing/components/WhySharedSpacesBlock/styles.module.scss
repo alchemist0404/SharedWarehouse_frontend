@@ -1,0 +1,45 @@
+@import "src/styles/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.thesis {
+  h1 {
+    color: $orange;
+    font-size: 5.1rem;
+  }
+
+  p {
+    margin-top: 1rem;
+    color: #757575;
+    font-size: 1.7rem;
+    font-family: 'Source Serif Pro', serif;
+  }
+}
+
+.equal_columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  & > div {
+    max-width: 28rem;
+  }
+
+  h4 {
+    color: $blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.28rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+

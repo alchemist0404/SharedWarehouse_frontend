@@ -1,0 +1,15 @@
+.avatar_image {
+  width: 2em;
+  height: 2em;
+  margin: 0 auto;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+
+.row {
+  cursor: pointer;
+}

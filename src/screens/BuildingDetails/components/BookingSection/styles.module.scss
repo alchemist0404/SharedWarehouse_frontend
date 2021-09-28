@@ -1,0 +1,11 @@
+.book_btn {
+  min-width: 10em !important;
+  margin: 0 !important;
+
+  &_container {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
+    width: fit-content;
+  }
+}

@@ -1,0 +1,61 @@
+.card_content {
+  color: white;
+  background-color: #5d5d5d !important;
+  position: relative;
+  user-select: none;
+  & * {
+    font-family: 'Space Mono', monospace;
+  }
+}
+
+.card_number {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  word-spacing: 0.28em;
+  letter-spacing: 0.14em;
+  font-size: 1.18em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card_brand, .card_brand_icon {
+  position: absolute;
+  right: 0.4em;
+}
+
+.card_brand {
+  top: 0.6em;
+}
+
+.card_brand_icon {
+  top: 0.1em;
+  max-height: 3em;
+  max-width: 3em;
+}
+
+.card_info_section {
+  width: 100%;
+  display: flex;
+}
+
+.card_expiration_section {
+  flex-shrink: 0;
+}
+
+.card_expiration_label {
+  text-transform: uppercase;
+  font-size: 0.71em;
+}
+
+.card_expiration_value {
+  font-size: 1.14em;
+  line-height: 110%;
+}
+
+.card_holder_section {
+  flex-grow: 1;
+}
+

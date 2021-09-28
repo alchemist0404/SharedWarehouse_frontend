@@ -1,0 +1,18 @@
+@import "src/styles/variables";
+
+.building_name_label {
+  color: $orange;
+  font-weight: 600;
+  font-size: 2.14em;
+  margin-bottom: 0.1em;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.filler {
+  flex-grow: 1;
+}

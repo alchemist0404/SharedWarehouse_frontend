@@ -1,0 +1,14 @@
+@import "src/styles/variables";
+
+.like_button, .like_button__active {
+  background: none !important;
+  grid-area: 1 / 5;
+}
+
+.like_button__active {
+  color: $primaryGreen !important;
+
+  &:hover {
+    color: darken($primaryGreen, 10%) !important;
+  }
+}

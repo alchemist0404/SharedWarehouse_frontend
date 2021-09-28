@@ -1,0 +1,91 @@
+@import "src/styles/variables";
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  font-size: 1.15em !important;
+  text-align: left;
+}
+
+.requirementsTitle {
+  color: #0070B9 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  text-transform: none !important;
+  font-size: 1.4rem !important;
+  font-family: 'Work Sans', serif !important;
+  font-weight: 500 !important;
+  margin-bottom: 1.2em !important;
+}
+
+.downloadLink {
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Work Sans', serif !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  color: #ACCE36 !important;
+  margin-bottom: 2em !important;
+  &:after {
+    display: block;
+    content: '';
+    border-bottom: 1.5px solid #ACCE36;;
+  }
+}
+
+.colorCheckbox {
+  label:after {
+    width: 19px!important;
+    height: 19px!important;
+    background: orange!important;
+    border-radius: 2px!important;
+    content: '' !important;
+    top: 3px!important;
+    left: 3px!important;
+  }
+}
+
+.colorCheckbox {
+  label:before {
+    width: 25px!important;
+    height: 25px!important;
+    border-radius: 3px!important;
+    border: 1px solid #000000!important;
+  }
+}
+
+.listTitle {
+  font-family: 'Source Serif Pro', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 26px;
+  color: #323232;
+  margin-bottom: 0.5em;
+}
+
+.listDescription {
+  font-family: Work Sans, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.requirementsWarehouse {
+  color: #0070B9 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  text-transform: none !important;
+  font-size: 1.4rem !important;
+  font-family: 'Source Serif Pro', serif !important;
+  font-weight: 400 !important;
+  text-align: center;
+}

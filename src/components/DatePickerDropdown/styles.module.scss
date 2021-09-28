@@ -1,0 +1,22 @@
+$color: #E0E1E2;
+$activeColor: #CACBCD;
+
+.label_container {
+  display: flex;
+  flex-direction: column;
+  color: #2F3136;
+  cursor: pointer;
+  width: fit-content !important;
+  padding: 1em;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0 1px #eaeaea inset;
+  background-color: $color;
+
+  &:hover {
+    background-color: $activeColor;
+  }
+}
+
+.active {
+  background-color: $activeColor;
+}

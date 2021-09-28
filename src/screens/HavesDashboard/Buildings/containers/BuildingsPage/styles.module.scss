@@ -1,0 +1,37 @@
+.subtitle_section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bannerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.banner {
+  text-align: center;
+}
+
+.filler {
+  flex-grow: 1;
+}
+
+.tab_button {
+  color: #0070B9 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  text-transform: none !important;
+  font-size: 1.4rem !important;
+  font-family: 'Source Serif Pro', serif !important;
+  font-weight: 400 !important;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover {
+    color: #4c8eba !important;
+  }
+}

@@ -1,0 +1,44 @@
+.menu {
+  & > * {
+    text-align: left;
+  }
+
+  & > :global(.item) {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+
+    &:global(.horizontally.fitted) {
+      padding-right: 1em !important;
+      padding-left: 1em !important;
+    }
+  }
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+
+  & > span {
+    color: #757575;
+    font-size: 1.1rem;
+  }
+}
+
+.dropdown {
+  & > :global(.text) {
+    min-width: 6em !important;
+  }
+}
+
+.right_space {
+  margin-right: 4em;
+}
+
+.date_picker_selector {
+  min-width: 12.9em;
+}
+
+.space_type_selector {
+  min-width: 12.3em;
+}

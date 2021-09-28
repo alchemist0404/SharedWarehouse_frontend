@@ -1,0 +1,36 @@
+.date_picker {
+  border-radius: 0.3em;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  padding: 0.3215em 0 0.3215em 1em; // 38px height
+  transition: 0.1s border-color ease;
+  width: 100%;
+
+  input, select {
+    padding: 0 !important;
+    border: 0 !important;
+    outline: none !important;
+  }
+
+  button {
+    outline: none !important;
+  }
+
+  select {
+    cursor: pointer;
+    display: unset !important;
+    width: auto !important;
+  }
+
+  :global(.react-time-picker__wrapper) {
+    border: none !important;
+  }
+
+  :global(.react-time-picker__inputGroup) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+:global(.react-time-picker--open) {
+  border-color: #85B7D9;
+}

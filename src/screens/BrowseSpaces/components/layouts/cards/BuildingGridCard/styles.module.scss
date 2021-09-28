@@ -1,0 +1,35 @@
+.name {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.2em;
+}
+
+.image {
+  height: 18.6em;
+}
+
+.card {
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  cursor: pointer;
+  position: relative;
+  width: 100% !important;
+}
+
+.like {
+  padding: 0.5rem !important;
+  width: 42px !important;
+
+  &_container {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+}
+
+.link {
+  color: unset;
+  &:hover {
+    color: unset;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.prev_value {
+  font-weight: 500 !important;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.checkbox {
+  margin-bottom: 1em;
+}
+
+.submit_button {
+  margin-right: 0 !important;
+  margin-top: 1em !important;
+}
+
+.exists {
+  text-align: center;
+  margin: 2em 0;
+}

@@ -1,0 +1,14 @@
+.btn_back {
+  text-decoration: underline !important;
+  color: black !important;
+  font-weight: 600 !important;
+  font-size: 0.8rem !important;
+  padding: 0 !important;
+  background: transparent !important;
+  text-transform: unset !important;
+  transition: all 0.3s ease-in-out !important;
+
+  &:hover {
+    color: #6E6E6E !important;
+  }
+}

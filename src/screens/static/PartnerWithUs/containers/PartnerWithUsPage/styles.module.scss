@@ -1,0 +1,42 @@
+@import "src/styles/variables";
+
+.text {
+  font-size: 1.15em !important;
+
+  h3 {
+    font-family: 'Work Sans', serif;
+    font-weight: 600;
+    margin-top: 3em;
+  }
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab_button {
+  color: #0070B9 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  text-transform: none !important;
+  font-size: 1.4rem !important;
+  font-family: 'Source Serif Pro', serif !important;
+  font-weight: 400 !important;
+  cursor: pointer;
+
+  &:hover {
+    color: #4c8eba !important;
+  }
+}
+
+.active {
+  text-decoration: underline !important;
+  font-weight: 600 !important;
+}
+
+.button {
+  font-weight: 600 !important;
+}

@@ -1,0 +1,6 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@headerFont: 'Source Serif Pro', serif;
+@headerFontWeight: 600;

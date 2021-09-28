@@ -1,0 +1,14 @@
+.add_image {
+  border: #4a90e2 1px solid;
+  color: #4a90e2;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+
+  &:hover {
+    box-shadow: inset 0 0 3px 2px #4a90e2;
+  }
+}

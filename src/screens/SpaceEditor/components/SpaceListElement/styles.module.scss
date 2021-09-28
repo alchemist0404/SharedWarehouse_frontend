@@ -1,0 +1,18 @@
+.container {
+  padding: 1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: #eee;
+  }
+
+  .checkbox {
+    margin-left: 1em;
+  }
+
+  .blocked {
+    color: red;
+  }
+}

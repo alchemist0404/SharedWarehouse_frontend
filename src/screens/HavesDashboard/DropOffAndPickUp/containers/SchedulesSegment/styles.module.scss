@@ -1,0 +1,21 @@
+@import "src/styles/variables";
+
+.not_reviewed {
+  background-color: #FFFAF3;
+  color: #573A08;
+  border-left: 2px solid $orange;
+
+  &:hover {
+    background-color: #fff4e4;
+    color: #493107;
+  }
+}
+
+.footerWrapper {
+  display: flex;
+  justify-content: right;
+}
+
+.footerButton {
+  margin: 0.5em !important;
+}

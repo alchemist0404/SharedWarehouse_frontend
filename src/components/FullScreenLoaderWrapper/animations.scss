@@ -1,0 +1,19 @@
+$time_enter: 1000ms;
+$time_exit: 200ms;
+
+.loader-enter {
+  opacity: 0;
+}
+.loader-enter-active {
+  opacity: 1;
+  transition: opacity $time_enter, transform $time_enter;
+}
+.loader-exit {
+  opacity: 1;
+}
+.loader-exit-active {
+  opacity: 0;
+  transform: scale(1.6);
+  transition: opacity $time_exit, transform $time_exit;
+  transition-delay: $time_enter;
+}

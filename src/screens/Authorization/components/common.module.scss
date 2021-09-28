@@ -1,0 +1,11 @@
+.small_link {
+  color: black;
+  margin-left: auto;
+  font-size: 0.9em;
+  margin-top: 1em;
+  font-weight: 600;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

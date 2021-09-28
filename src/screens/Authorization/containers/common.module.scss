@@ -1,0 +1,11 @@
+@import "src/styles/variables";
+
+.alternative_container {
+  margin-top: 1.5em;
+
+  a {
+    color: $orange !important;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+}

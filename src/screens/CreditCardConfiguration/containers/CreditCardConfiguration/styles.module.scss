@@ -1,0 +1,18 @@
+.cards_container {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
+  justify-items: center;
+  margin-top: 1em;
+  column-gap: 1em;
+}
+
+.add_btn {
+  align-self: start;
+}
+
+.credit_card {
+  margin: 0 !important;
+  max-width: 320px !important;
+  width: 100% !important;
+}

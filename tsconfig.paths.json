@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@root/*": ["./*"],
+      "@videos/*": ["assets/videos/*"],
+      "@images/*": ["assets/images/*"],
+      "@components/*": ["components/*"],
+      "@containers/*": ["containers/*"],
+      "@helpers/*": ["helpers/*"],
+      "@models/*": ["models/*"],
+      "@reducers/*": ["reducers/*"],
+      "@sagas/*": ["sagas/*"],
+      "@screens/*": ["screens/*"],
+      "@styles/*": ["styles/*"],
+      "@services/*": ["services/*"]
+    }
+  }
+}

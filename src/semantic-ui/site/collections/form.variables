@@ -1,0 +1,7 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@labelFontWeight: 600;
+@labelMargin: 1.3rem 0 0.5rem 0;
+@fieldsMargin: 0 -0.5em;

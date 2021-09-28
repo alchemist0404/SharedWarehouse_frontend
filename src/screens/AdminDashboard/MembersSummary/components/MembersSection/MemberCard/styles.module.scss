@@ -1,0 +1,30 @@
+.wrapper {
+  .divider {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .avatarWrapper {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .avatar {
+    display: block;
+    width: 200px;
+  }
+
+  .paddingProperty {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .paddingProperty:first-child {
+    padding-top: 0;
+  }
+
+  .paddingProperty:last-child {
+    padding-bottom: 0;
+  }
+}

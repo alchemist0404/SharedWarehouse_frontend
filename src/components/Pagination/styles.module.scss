@@ -1,0 +1,8 @@
+.pagination {
+  align-self: center;
+  border: none !important;
+  & > * {
+    border: none !important;
+  }
+  padding-top: 2em;
+}

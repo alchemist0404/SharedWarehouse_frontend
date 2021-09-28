@@ -1,0 +1,42 @@
+$width: 10em;
+$height: 10em;
+
+.avatar {
+  &_container, &_image, &_cover {
+    height: $height;
+    width: $width;
+    max-width: $width;
+    border-radius: 50% !important;
+  }
+
+  &_container {
+    margin-top: 0.5em;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &_image {
+    position: absolute !important;
+  }
+
+  &_cover {
+    opacity: 0;
+    background: black;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.3;
+    }
+  }
+}
+
+.title {
+  font-weight: 600;
+}
+
+.content {
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: center;
+}

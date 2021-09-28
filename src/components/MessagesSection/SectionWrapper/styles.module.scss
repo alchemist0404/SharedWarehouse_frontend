@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #f3f3f3 !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link {
+  text-transform: uppercase;
+  color: #6e6e6e;
+  font-size: 0.86em;
+}
+
+.filler {
+  flex-grow: 1;
+}
+
+.button {
+  background-color: transparent !important;
+  padding: 0.1em !important;
+}
+
+.content {
+  height: 15em;
+  overflow: auto;
+}

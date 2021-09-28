@@ -1,0 +1,47 @@
+@import "src/styles/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 4em;
+    color: $orange;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    margin-bottom: 3rem;
+    color: #757575;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+  }
+
+  div {
+    color: $gray;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    color: $gray;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    color: $lightBlue;
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+    &:not(:first-child) {
+      margin-top: 3rem;
+    }
+  }
+
+  a {
+    color: $orange;
+  }
+}
+
+.vertical_space {
+  padding-top: 5vh;
+  margin-bottom: $bottom_margin;
+}

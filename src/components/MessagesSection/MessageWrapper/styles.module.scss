@@ -1,0 +1,36 @@
+.container {
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .leftPart {
+    display: flex;
+
+    .checkboxWrapper {
+    }
+
+    .senderWrapper {
+      width: 10em;
+      margin: 0 2em;
+    }
+
+    .textWrapper {
+      width: 30em;
+      color: #888;
+    }
+
+    .senderWrapper, .textWrapper {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+  .rightPart {
+    .createdAtWrapper {
+      color: #888;
+    }
+  }
+}

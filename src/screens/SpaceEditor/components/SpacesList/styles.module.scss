@@ -1,0 +1,11 @@
+.container {
+  .buttonWrapper {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 1em;
+  }
+
+  .divider {
+    border-bottom: none !important;
+  }
+}

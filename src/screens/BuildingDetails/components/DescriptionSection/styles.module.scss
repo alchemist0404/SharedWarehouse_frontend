@@ -1,0 +1,56 @@
+@import "src/styles/variables";
+
+.divider {
+  background-color: #d7d7d7;
+  border: none;
+  height: 1px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.back_link {
+  text-decoration: underline;
+  color: black;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+.link {
+  text-decoration: underline !important;
+}
+
+.estimation_text {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  color: $gray;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+}
+
+.subtitle {
+  margin-bottom: 0.5em;
+}
+
+.tip {
+  color: $gray;
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+.date_picker_container {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+
+.top_buttons_container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.filler {
+  flex-grow: 1;
+}

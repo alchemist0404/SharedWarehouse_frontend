@@ -1,0 +1,28 @@
+@import "src/styles/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_back {
+  align-self: baseline;
+}
+
+.image_container {
+  margin-top: 1.5em;
+}
+
+.booking_margin {
+  margin-top: 1em;
+}
+
+.top_buttons_container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.filler {
+  flex-grow: 1;
+}

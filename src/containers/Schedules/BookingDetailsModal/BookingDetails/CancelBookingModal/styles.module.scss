@@ -1,0 +1,12 @@
+.container {
+
+  & > div {
+    display: block;
+  }
+
+  .note {
+    margin-bottom: 1em;
+    color: #777;
+    text-align: center;
+  }
+}

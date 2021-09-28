@@ -1,0 +1,23 @@
+export const ENDPOINTS = {
+  ROOT: '/',
+  LOGIN: '/login',
+  REGISTER: '/register',
+  USER: '/user',
+  OAUTH_REDIRECT: '/oauth/redirect',
+  VERIFY: '/verify',
+  RESET: '/reset',
+  HOW_IT_WORKS: '/how_it_works',
+  PARTNER_WITH_US: '/partner_with_us',
+  JOIN_OUR_TEAM: '/join_our_team',
+  CONTACT_US: '/contact_us',
+  LIST_YOUR_SPACE: '/list_your_space',
+  PRIVACY_POLICY: '/privacy_policy',
+  TERMS_AND_CONDITIONS: '/terms_and_conditions',
+  HELP: '/help',
+  OUR_STORY: '/our_story',
+  BROWSE: '/browse',
+  DETAILS: id => `/details/${id}`,
+  BOOKING: id => `/booking/${id}`,
+  BUILDING_EDITOR: id => `/building/edit/${id}`,
+  SPACE_EDITOR: id => `/space/edit/${id}`
+};

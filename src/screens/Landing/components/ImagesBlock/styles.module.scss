@@ -1,0 +1,24 @@
+@import "src/styles/variables";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.image_block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  h2 {
+    color: $orange;
+    font-size: 3.4rem;
+    font-weight: 600;
+  }
+
+  img {
+    min-width: 350px;
+  }
+}

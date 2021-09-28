@@ -1,0 +1,12 @@
+@import "src/styles/variables";
+
+.text {
+  font-size: 1.15em !important;
+  text-align: center;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

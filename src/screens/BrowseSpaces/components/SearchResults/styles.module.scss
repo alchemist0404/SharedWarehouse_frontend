@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10vh;
+}
+
+.results {
+  flex-grow: 1;
+}
+
+.pagination {
+  align-self: center;
+  border: none !important;
+  & > * {
+    border: none !important;
+  }
+  padding-top: 2em;
+}

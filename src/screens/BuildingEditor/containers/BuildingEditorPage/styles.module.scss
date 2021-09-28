@@ -1,0 +1,19 @@
+@import "src/styles/variables";
+
+.container {
+  margin-bottom: $bottom_margin;
+  max-width: 900px;
+
+  h2 {
+    margin-top: 1em;
+    color: $orange;
+  }
+}
+
+.form {
+  margin-top: 1em;
+}
+
+.tabs_section {
+  margin-top: 2em;
+}

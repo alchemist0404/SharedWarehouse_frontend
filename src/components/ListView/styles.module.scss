@@ -1,0 +1,20 @@
+.items_segment {
+  padding: 0 !important;
+}
+
+.item_row {
+  padding: 1em;
+  &:hover {
+    background: #eeeeee;
+    cursor: pointer;
+  }
+}
+
+.divider {
+  border-bottom: none !important;
+}
+
+.disabled {
+  pointer-events: none!important;
+  opacity: 0.6!important;
+}

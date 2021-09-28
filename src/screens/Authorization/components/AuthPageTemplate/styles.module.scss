@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.form_segment {
+  padding: 3em !important;
+}
+
+.form_container {
+  max-width: 270px;
+  width: 270px;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
